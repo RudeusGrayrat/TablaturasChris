@@ -10,13 +10,16 @@ export default function NavButtonD(props :any) {
     const ocultar = () => {
         setDespliegue(false)
     }
+    const colorbackg = despliegue ? "bg-transparent" : ""
+
+    
     return (
         <div className=" hover:bg-slate-400 rounded-t-lg w-44 text-center"
             onMouseEnter={desplegar}
             onMouseLeave={ocultar}>
             <BotonLink
                 nombre="Partituras"
-                estilos={props.estilos}
+                estilos={`${props.estilos} ${colorbackg}`}
                 ruta="/home/partituras"
             >
             </BotonLink>
@@ -25,22 +28,22 @@ export default function NavButtonD(props :any) {
                     <BotonLink
                         nombre="Cifrado solo"
                         estilos="my-2"
-                        ruta="/home/cifrado-solo">
+                        ruta="/home/partituras/cifrado-solo">
                     </BotonLink>
                     <BotonLink
                         nombre="Lead con cifrado"
                         estilos="my-2"
-                        ruta="/home/lead-cifrado">
+                        ruta="/home/partituras/lead-cifrado">
                     </BotonLink>
                     <BotonLink
                         nombre="Arreglos"
                         estilos="my-2"
-                        ruta="/home/arreglos">
+                        ruta="/home/partituras/arreglos">
                     </BotonLink>
                     <BotonLink
                         nombre="Transcripciones"
                         estilos="my-2"
-                        ruta="/home/transcripciones">
+                        ruta="/home/partituras/transcripciones">
                     </BotonLink>
                 </div>}
         </div>

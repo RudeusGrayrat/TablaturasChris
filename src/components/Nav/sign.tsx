@@ -6,13 +6,13 @@ export default function Sign() {
             <BotonLink
                 nombre="Login"
                 estilos="mx-5"
-                ruta="/login">
+                ruta="/perfil/login">
             </BotonLink>
             <span>|</span>
             <BotonLink
                 nombre="Register"
                 estilos="mx-5"
-                ruta="/register">
+                ruta="/perfil/register">
             </BotonLink>
         </div>
     )

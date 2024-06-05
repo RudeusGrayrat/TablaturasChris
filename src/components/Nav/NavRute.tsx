@@ -10,7 +10,7 @@ export default function NavRute() {
         <div className="flex ">
             <BotonLink
                 nombre="Home"
-                estilos={`${currentPath === "/home" ? 'bg-black rounded-lg  text-white mx-4 p-4 ' : 'mx-8'} `}
+                estilos={`${currentPath === "/home" ? 'bg-black rounded-lg  text-white mx-4 p-4  ' : 'mx-8'} `}
                 ruta="/home">
             </BotonLink>
             <NavButtonD

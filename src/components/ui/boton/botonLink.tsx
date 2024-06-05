@@ -5,7 +5,7 @@ export default function BotonLink(props: any) {
     return (
         <Link href={props.ruta}>
             <button
-                className={`${props.estilos} hover:text-white cl py-2`}
+                className={`${props.estilos}  py-2  hover:scale-110 hover:text-white duration-200`}
                 {...props}
             >
                 {props.nombre}

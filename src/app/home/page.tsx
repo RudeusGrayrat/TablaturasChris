@@ -1,15 +1,35 @@
 import React from 'react';
 import Cards from '../../components/Cards/Cards';
-import Link from 'next/link'; export default function Inicio() {
+import Image from 'next/image';
+export default function Inicio() {
     return (
-        <div style={{ display: 'flex', justifyContent: "center", alignItems: "center", height: "500px", padding: "50px" }}>
-            <Link href="/perfil" style={{ textDecoration: "none" }}>
+        <div>
+            
+            <div className=' bg-slate-200 text-center pt-16'>
+                <h1 className=' bg-slate-200 text-6xl'>Te ofrezco </h1>
+            </div>
+            <div className='flex flex-wrap bg-slate-200 p-20 pt-12 justify-center'>
                 <Cards
-                    nombre={"Acordes"}>
+                    imageUrl='/imagenPartitura.jpeg'
+                    title='Partituras'
+                    description='las partituras son.......'>
                 </Cards>
-            </Link>
-            <Cards nombre={"Tablaturas"}></Cards>
-            <Cards nombre={"Videos"}></Cards>
+                <Cards
+                    imageUrl='/imagenPartitura.jpeg'
+                    title='Partituras'
+                    description='las partituras son.......'>
+                </Cards>
+                <Cards
+                    imageUrl='/imagenPartitura.jpeg'
+                    title='Partituras'
+                    description='las partituras son.......'>
+                </Cards>
+                <Cards
+                    imageUrl='/imagenPartitura.jpeg'
+                    title='Partituras'
+                    description='las partituras son.......'>
+                </Cards>
+            </div>
         </div>
     )
 }

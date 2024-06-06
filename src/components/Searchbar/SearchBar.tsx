@@ -1,7 +1,11 @@
+import Link from "next/link";
+
 export default function Searchbar() {
     return (
         <div className="flex  items-center">
-            <h1 className="text-white text-2xl tex">Tablaturas Chris</h1>
+            <Link href="/">
+                <h1 className="text-white text-2xl tex">Tablaturas Chris</h1>
+            </Link>
             <input
                 type="text"
                 placeholder="Buscar..."

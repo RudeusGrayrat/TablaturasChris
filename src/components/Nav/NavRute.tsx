@@ -15,7 +15,7 @@ export default function NavRute() {
             <BotonLink
                 nombre="Letras y Acordes"
                 estilos={`${currentPath === '/letra-acorde' ? 'bg-black rounded-lg  text-white mx-4 p-4 ' : 'mx-8'} `}
-                ruta="/home/letra-acorde">
+                ruta="/letra-acorde">
             </BotonLink>
             <BotonLink
                 nombre="Contacto"

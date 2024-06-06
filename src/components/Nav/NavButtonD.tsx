@@ -20,7 +20,7 @@ export default function NavButtonD(props :any) {
             <BotonLink
                 nombre="Partituras"
                 estilos={`${props.estilos} ${colorbackg}`}
-                ruta="/home/partituras"
+                ruta="/partituras"
             >
             </BotonLink>
             {despliegue &&
@@ -28,22 +28,22 @@ export default function NavButtonD(props :any) {
                     <BotonLink
                         nombre="Cifrado solo"
                         estilos="my-2"
-                        ruta="/home/partituras/cifrado-solo">
+                        ruta="/partituras/cifrado-solo">
                     </BotonLink>
                     <BotonLink
                         nombre="Lead con cifrado"
                         estilos="my-2"
-                        ruta="/home/partituras/lead-cifrado">
+                        ruta="/partituras/lead-cifrado">
                     </BotonLink>
                     <BotonLink
                         nombre="Arreglos"
                         estilos="my-2"
-                        ruta="/home/partituras/arreglos">
+                        ruta="/partituras/arreglos">
                     </BotonLink>
                     <BotonLink
                         nombre="Transcripciones"
                         estilos="my-2"
-                        ruta="/home/partituras/transcripciones">
+                        ruta="/partituras/transcripciones">
                     </BotonLink>
                 </div>}
         </div>

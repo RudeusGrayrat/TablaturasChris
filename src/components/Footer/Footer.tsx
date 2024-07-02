@@ -5,7 +5,8 @@ export default function Footer() {
         <div className="flex justify-between  bg-slate-400 p-16 ">
             <Content
                 title="CONTEMPORÁNEO"
-                estilos="text-2xl"></Content>
+                estilos="text-2xl">
+            </Content>
             <Content
                 title="Empresa"
                 estilos="text-xl"

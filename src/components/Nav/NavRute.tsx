@@ -14,7 +14,7 @@ export default function NavRute() {
             </NavButtonD>
             <BotonLink
                 nombre="Letras y Acordes"
-                estilos={`${currentPath === '/letra-acorde' ? 'bg-black rounded-lg  text-white mx-4 p-4 ' : 'mx-8'} `}
+                estilos={`${currentPath === '/letra-acorde' ? 'bg-black rounDded-lg  text-white mx-4 p-4 ' : 'mx-8'} `}
                 ruta="/letra-acorde">
             </BotonLink>
             <BotonLink

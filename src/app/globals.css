@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light;
+  background: #fff9f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(199, 129, 92, 0.14), transparent 28rem),
+    linear-gradient(180deg, #fff9f4 0%, #fff4ec 100%);
+}
+
+a {
+  text-decoration: none;
+}

@@ -6,8 +6,8 @@ import Nav from "@/components/Nav/Nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tablaturas Chris",
-  description: "Tablaturas profesionales de Chris",
+  title: "Contemporaneo",
+  description: "Plataforma de musica clasica contemporanea",
 };
 
 export default function RootLayout({
@@ -16,12 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
-        <Nav></Nav>
+        <Nav />
         {children}
       </body>
     </html>

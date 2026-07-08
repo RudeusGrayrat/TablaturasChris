@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function Page(){
+export default function Page() {
     const [showOptions, setShowOptions] = useState(false);
 
     const handleButtonClick = () => {

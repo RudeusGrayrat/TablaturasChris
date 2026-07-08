@@ -66,15 +66,15 @@ const trustItems = [
 export default function HomeLanding() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#fff9f4] text-[#201816]">
-      <section className="relative min-h-[760px] bg-[#f8eee6]">
+      <section className="relative w-screen min-h-[760px] bg-[#f8eee6]">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(255,249,244,0.98)_0%,rgba(255,249,244,0.86)_42%,rgba(255,249,244,0.18)_68%,rgba(32,24,22,0.28)_100%)]" />
+          <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(255,249,244,1)_0%,rgba(255,249,244,1)_42%,rgba(255,249,244,0.18)_60%,rgba(32,24,22,0.28)_80%)]" />
           <div
-            className="absolute inset-y-0 right-0 w-[62%] bg-no-repeat"
+            className="absolute inset-y-0 right-0 w-[100%] bg-no-repeat"
             style={{
-              backgroundImage: "url('/hero-cello.png')",
-              backgroundSize: "85%",
-              backgroundPosition: "right center",
+              backgroundImage: "url('/contemporaneo_landing.png')",
+              backgroundSize: "cover",
+              backgroundPosition: "bottom center",
             }}
           />
         </div>

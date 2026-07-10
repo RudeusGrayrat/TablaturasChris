@@ -68,11 +68,14 @@ export default function HomeLanding() {
     <main className="min-h-screen overflow-hidden bg-[#fff9f4] text-[#201816]">
       <section className="relative w-screen min-h-[760px] bg-[#f8eee6]">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(255,249,244,1)_0%,rgba(255,249,244,1)_42%,rgba(255,249,244,0.18)_60%,rgba(32,24,22,0.28)_80%)]" />
+          <div className="relative z-10 mx-auto flex min-h-[760px] max-w-7xl items-center  ">
+            <div className=" !w-[780px] h-[780px]  -translate-x-10  rounded-full 
+            bg-[radial-gradient(circle_at_center,rgba(255,249,244,1)_0%,rgba(255,249,244,0.8)_20%,rgba(255,249,244,0.4)_50%,rgba(32,24,22,0)_70%)]" />
+          </div>
           <div
             className="absolute inset-y-0 right-0 w-[100%] bg-no-repeat"
             style={{
-              backgroundImage: "url('/contemporaneo_landing.png')",
+              backgroundImage: "url('/violin_contemporaneo.png')",
               backgroundSize: "cover",
               backgroundPosition: "bottom center",
             }}

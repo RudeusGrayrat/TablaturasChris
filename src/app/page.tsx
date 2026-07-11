@@ -1,4 +1,4 @@
-import HomeLanding from "@/components/Home/HomeLanding";
+import HomeLanding from "./public/page";
 
 export default function Home() {
   return <HomeLanding />;

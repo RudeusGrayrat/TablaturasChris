@@ -1,6 +1,6 @@
 "use client"
 import { useState } from "react";
-import BotonLink from "../ui/boton/botonLink";
+import BotonLink from "../Ui/botonLink";
 
 export default function NavButtonD(props :any) {
     const [despliegue, setDespliegue] = useState(false);

@@ -1,6 +1,6 @@
 "use client"
 import { usePathname } from "next/navigation";
-import BotonLink from "../ui/boton/botonLink";
+import BotonLink from "../Ui/botonLink";
 import NavButtonD from "./NavButtonD";
 
 export default function NavRute() {
